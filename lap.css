@@ -1,0 +1,105 @@
+*{
+
+background-color:peru;
+}
+
+
+@media(max-width:2560px){
+    .b iframe{
+        position: absolute;
+    margin-top: -298px;
+    margin-left: 76px;
+    height: 220px;
+    width: 324px;
+    }
+
+    
+}
+
+
+
+@media(max-width:1920px){
+    
+
+
+}
+@media(max-width:1440px){
+    .b iframe{
+        position: absolute;
+    margin-top: -303px;
+    margin-left: 73px;
+    height: 225px;
+    width: 326px;
+    }
+
+
+    }
+    
+
+
+
+
+@media(max-width:1024px){ 
+    .b iframe{
+        position: absolute;
+        margin-top: -300px;
+        margin-left: 73px;
+        height: 223px;
+        width: 327px;
+    }
+
+
+}
+
+@media(max-width:768px){
+    .b.iframe{
+        position: absolute;
+    margin-top: -301px;
+    margin-left: 73px;
+    height: 222px;
+    width: 328px;
+    }
+    
+
+
+}
+@media(max-width:576px){
+
+
+}
+@media(max-width:425px){
+    .b iframe{
+        position: absolute;
+        margin-top: -300px;
+        margin-left: 73px;
+        height: 220px;
+        width: 325px;
+    }
+
+
+}
+@media(max-width:375px){
+    .b iframe{
+        position: absolute;
+        margin-top: -300px;
+        margin-left: 74px;
+        height: 219px;
+        width: 327px;
+    }
+    
+
+
+}
+
+@media(max-width:320px){
+    .b iframe{
+        position: absolute;
+        margin-top: -301px;
+        margin-left: 74px;
+        height: 223px;
+        width: 328px;
+    }
+    
+
+
+}

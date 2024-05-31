@@ -1,0 +1,38 @@
+.chaka1{
+    margin-right:100px;
+    animation-name: abcd;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 100px;
+    
+   
+}
+
+@keyframes abcd{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+.chaka2{
+    animation-name: wheel2;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+   
+}
+
+@keyframes wheel2{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.gadi{
+    transform: rotateX('180');
+}
+
