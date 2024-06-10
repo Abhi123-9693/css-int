@@ -10,6 +10,10 @@
     #ac{
     color: rgb(194, 5, 5);
     }
+    .b{
+        background-color: burlywood;
+        
+    }
 
     
     
@@ -17,6 +21,8 @@
 
         background: linear-gradient(45deg,rgb(102, 171, 102),skyblue);
         padding:5px;
+        position: sticky;
+        top:0px;
     }
     .a p{
         margin: 0px;
@@ -24,12 +30,19 @@
         padding: 0px;
     }
     .B{
-        border-bottom: 2px solid pink;
+        border-bottom: 2px solid black;
     }
     .c{
 
         margin-top: 50px;
         padding: 5px;
+        border: 15px solid black;
+        box-shadow:  5px 4px 41px greenyellow;
+    }
+
+    .c .card{
+
+        box-shadow:  0px 0px 12px 3px orange;
     }
     #e{
         margin-top: 200px;
@@ -48,17 +61,61 @@
         text-transform: uppercase;
         text-decoration: underline;
         animation-name: scale;
-        animation: scale 5s linear 0s infinite normal;
+        animation: scale 5s linear 1s infinite normal;
     }
 
         @keyframes scale{
-            0%{font-size:0px;}
-            50%{font-size:40px;
+            0%{font-size:5px;}
+            50%{font-size:20px;
                 color: red;}
-            100%{font-size:0px;
-                 color:green}
+            100%{font-size:40px;
+                 color:green;
+                text-decoration: dotted;}
             }
 
+      .f{
+        margin-top: 40px;
+      }
+      .g{
+        margin-top: 40px;
+      }
+
+
+      .h{
+        margin-top:40px ;
+      }
+      
+    
+
+    
+
+   
+
+    #st1{
+
+  
+    }
+    #st1:hover{
+      color: #dabb4e;
+    }
+    #st2:hover{
+      color: red;
+    }
+    #st3:hover{
+      color: blue;
+    }
+    #st4:hover{
+      color: chartreuse;
+    }
+    #st5:hover{
+      color: crimson;
+    }
+
+
+
+
+
+   
     /*login form css*/
 
     .loging .col-md-12{
@@ -112,6 +169,29 @@
     }
     .us{
         background-color: rgb(137, 213, 213);
+    }
+
+
+    /* BMW css */
+    .BMW a img{
+        border-radius: 50%;
+    }
+    .bmwprice{
+        margin-top: 30px;
+        border: 2px solid yellowgreen;
+        box-shadow:   3px 3px 33px 1px green;
+    }
+
+   
+    .bmwprice .card{
+        border: 3px solid yellow;
+        box-shadow: 1px 1px 11px 9px pink 
+    }
+
+    .bmwprice h1{
+        text-align: center;
+        text-transform: uppercase;
+        color: #dabb4e;
     }
    
     
