@@ -6,7 +6,7 @@ gsap.from("#t1",{
     trigger:"#t1",
     markers:true,
     scrub:true,
-    end:"top 50%"
+    end:"top 60%"
   }
 })
 gsap.from("#t2",{
@@ -17,6 +17,6 @@ gsap.from("#t2",{
     trigger:"#t2",
     markers:true,
     scrub:true,
-    end:"top 50%"
+    end:"top 40%"
   }
 })
